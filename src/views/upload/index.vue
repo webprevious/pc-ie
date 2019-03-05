@@ -4,7 +4,6 @@
       class="upload-demo"
       :action="upyun.host"
       :data="upyun"
-      :before-upload="checkFile"
       :on-success="uploadSuccess"
       :on-error="uploadFail"
       :auto-upload="true"
